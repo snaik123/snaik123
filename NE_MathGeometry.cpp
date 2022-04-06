@@ -13,6 +13,7 @@ double Round(double val, int dp)
 
 BOOL IsInteger(double val)
 {
+	{
     double temp = Round(val,0);
 
 	int ii = (int)temp;
